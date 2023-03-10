@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD02D43529BB83D40099E0BE /* Emulator_TechneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D43429BB83D40099E0BE /* Emulator_TechneApp.swift */; };
+		AD02D43729BB83D40099E0BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D43629BB83D40099E0BE /* ContentView.swift */; };
+		AD02D43929BB83D50099E0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD02D43829BB83D50099E0BE /* Assets.xcassets */; };
+		AD02D43C29BB83D50099E0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD02D43B29BB83D50099E0BE /* Preview Assets.xcassets */; };
+		AD02D45029BB83D50099E0BE /* Emulator_TechneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D44F29BB83D50099E0BE /* Emulator_TechneUITests.swift */; };
+		AD02D45229BB83D50099E0BE /* Emulator_TechneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D45129BB83D50099E0BE /* Emulator_TechneUITestsLaunchTests.swift */; };
+		AD02D45F29BB84100099E0BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD02D45E29BB840F0099E0BE /* GoogleService-Info.plist */; };
+		AD02D46429BB84940099E0BE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AD02D46329BB84940099E0BE /* FirebaseFirestore */; };
+		AD02D46629BB84940099E0BE /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = AD02D46529BB84940099E0BE /* FirebaseFunctions */; };
+		AD02D46829BB8A320099E0BE /* Firebase_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D46729BB8A320099E0BE /* Firebase_Service.swift */; };
+		AD02D46F29BB95340099E0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D46E29BB95340099E0BE /* AppDelegate.swift */; };
+		AD02D47A29BBA3910099E0BE /* Emulator_Techne_v2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02D47929BBA3910099E0BE /* Emulator_Techne_v2_Tests.swift */; };
+		AD02D48329BBA8380099E0BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD02D45E29BB840F0099E0BE /* GoogleService-Info.plist */; };
+		ADF29E9F29BBBCFB00FF15A7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ADF29E9E29BBBCFB00FF15A7 /* FirebaseFirestore */; };
+		ADF29EA729BBC84600FF15A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD02D45E29BB840F0099E0BE /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD02D44C29BB83D50099E0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD02D42929BB83D40099E0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD02D43029BB83D40099E0BE;
+			remoteInfo = Emulator_Techne;
+		};
+		AD02D47B29BBA3910099E0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD02D42929BB83D40099E0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD02D43029BB83D40099E0BE;
+			remoteInfo = Emulator_Techne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD02D43129BB83D40099E0BE /* Emulator_Techne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emulator_Techne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD02D43429BB83D40099E0BE /* Emulator_TechneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emulator_TechneApp.swift; sourceTree = "<group>"; };
+		AD02D43629BB83D40099E0BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD02D43829BB83D50099E0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD02D43B29BB83D50099E0BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD02D44B29BB83D50099E0BE /* Emulator_TechneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emulator_TechneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD02D44F29BB83D50099E0BE /* Emulator_TechneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emulator_TechneUITests.swift; sourceTree = "<group>"; };
+		AD02D45129BB83D50099E0BE /* Emulator_TechneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emulator_TechneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD02D45E29BB840F0099E0BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD02D46729BB8A320099E0BE /* Firebase_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_Service.swift; sourceTree = "<group>"; };
+		AD02D46E29BB95340099E0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD02D47729BBA3910099E0BE /* Emulator_Techne_v2_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emulator_Techne_v2_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD02D47929BBA3910099E0BE /* Emulator_Techne_v2_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emulator_Techne_v2_Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD02D42E29BB83D40099E0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD02D46429BB84940099E0BE /* FirebaseFirestore in Frameworks */,
+				AD02D46629BB84940099E0BE /* FirebaseFunctions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD02D44829BB83D50099E0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD02D47429BBA3910099E0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF29E9F29BBBCFB00FF15A7 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD02D42829BB83D40099E0BE = {
+			isa = PBXGroup;
+			children = (
+				AD02D43329BB83D40099E0BE /* Emulator_Techne */,
+				AD02D44E29BB83D50099E0BE /* Emulator_TechneUITests */,
+				AD02D47829BBA3910099E0BE /* Emulator_Techne_v2_Tests */,
+				AD02D43229BB83D40099E0BE /* Products */,
+				AD02D46929BB94810099E0BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD02D43229BB83D40099E0BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD02D43129BB83D40099E0BE /* Emulator_Techne.app */,
+				AD02D44B29BB83D50099E0BE /* Emulator_TechneUITests.xctest */,
+				AD02D47729BBA3910099E0BE /* Emulator_Techne_v2_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD02D43329BB83D40099E0BE /* Emulator_Techne */ = {
+			isa = PBXGroup;
+			children = (
+				AD02D46E29BB95340099E0BE /* AppDelegate.swift */,
+				AD02D43829BB83D50099E0BE /* Assets.xcassets */,
+				AD02D43629BB83D40099E0BE /* ContentView.swift */,
+				AD02D43429BB83D40099E0BE /* Emulator_TechneApp.swift */,
+				AD02D45E29BB840F0099E0BE /* GoogleService-Info.plist */,
+				AD02D43A29BB83D50099E0BE /* Preview Content */,
+				AD02D46729BB8A320099E0BE /* Firebase_Service.swift */,
+			);
+			path = Emulator_Techne;
+			sourceTree = "<group>";
+		};
+		AD02D43A29BB83D50099E0BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD02D43B29BB83D50099E0BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD02D44E29BB83D50099E0BE /* Emulator_TechneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD02D44F29BB83D50099E0BE /* Emulator_TechneUITests.swift */,
+				AD02D45129BB83D50099E0BE /* Emulator_TechneUITestsLaunchTests.swift */,
+			);
+			path = Emulator_TechneUITests;
+			sourceTree = "<group>";
+		};
+		AD02D46929BB94810099E0BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD02D47829BBA3910099E0BE /* Emulator_Techne_v2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD02D47929BBA3910099E0BE /* Emulator_Techne_v2_Tests.swift */,
+			);
+			path = Emulator_Techne_v2_Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD02D43029BB83D40099E0BE /* Emulator_Techne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD02D45529BB83D50099E0BE /* Build configuration list for PBXNativeTarget "Emulator_Techne" */;
+			buildPhases = (
+				AD02D42D29BB83D40099E0BE /* Sources */,
+				AD02D42E29BB83D40099E0BE /* Frameworks */,
+				AD02D42F29BB83D40099E0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emulator_Techne;
+			packageProductDependencies = (
+				AD02D46329BB84940099E0BE /* FirebaseFirestore */,
+				AD02D46529BB84940099E0BE /* FirebaseFunctions */,
+			);
+			productName = Emulator_Techne;
+			productReference = AD02D43129BB83D40099E0BE /* Emulator_Techne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD02D44A29BB83D50099E0BE /* Emulator_TechneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD02D45B29BB83D50099E0BE /* Build configuration list for PBXNativeTarget "Emulator_TechneUITests" */;
+			buildPhases = (
+				AD02D44729BB83D50099E0BE /* Sources */,
+				AD02D44829BB83D50099E0BE /* Frameworks */,
+				AD02D44929BB83D50099E0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD02D44D29BB83D50099E0BE /* PBXTargetDependency */,
+			);
+			name = Emulator_TechneUITests;
+			productName = Emulator_TechneUITests;
+			productReference = AD02D44B29BB83D50099E0BE /* Emulator_TechneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD02D47629BBA3910099E0BE /* Emulator_Techne_v2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD02D47D29BBA3910099E0BE /* Build configuration list for PBXNativeTarget "Emulator_Techne_v2_Tests" */;
+			buildPhases = (
+				AD02D47329BBA3910099E0BE /* Sources */,
+				AD02D47429BBA3910099E0BE /* Frameworks */,
+				AD02D47529BBA3910099E0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD02D47C29BBA3910099E0BE /* PBXTargetDependency */,
+			);
+			name = Emulator_Techne_v2_Tests;
+			packageProductDependencies = (
+				ADF29E9E29BBBCFB00FF15A7 /* FirebaseFirestore */,
+			);
+			productName = Emulator_Techne_v2_Tests;
+			productReference = AD02D47729BBA3910099E0BE /* Emulator_Techne_v2_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD02D42929BB83D40099E0BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AD02D43029BB83D40099E0BE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AD02D44A29BB83D50099E0BE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD02D43029BB83D40099E0BE;
+					};
+					AD02D47629BBA3910099E0BE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD02D43029BB83D40099E0BE;
+					};
+				};
+			};
+			buildConfigurationList = AD02D42C29BB83D40099E0BE /* Build configuration list for PBXProject "Emulator_Techne" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD02D42829BB83D40099E0BE;
+			packageReferences = (
+				AD02D46229BB84940099E0BE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AD02D43229BB83D40099E0BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD02D43029BB83D40099E0BE /* Emulator_Techne */,
+				AD02D44A29BB83D50099E0BE /* Emulator_TechneUITests */,
+				AD02D47629BBA3910099E0BE /* Emulator_Techne_v2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD02D42F29BB83D40099E0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD02D43C29BB83D50099E0BE /* Preview Assets.xcassets in Resources */,
+				AD02D43929BB83D50099E0BE /* Assets.xcassets in Resources */,
+				AD02D45F29BB84100099E0BE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD02D44929BB83D50099E0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD02D48329BBA8380099E0BE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD02D47529BBA3910099E0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF29EA729BBC84600FF15A7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD02D42D29BB83D40099E0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD02D46F29BB95340099E0BE /* AppDelegate.swift in Sources */,
+				AD02D46829BB8A320099E0BE /* Firebase_Service.swift in Sources */,
+				AD02D43729BB83D40099E0BE /* ContentView.swift in Sources */,
+				AD02D43529BB83D40099E0BE /* Emulator_TechneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD02D44729BB83D50099E0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD02D45229BB83D50099E0BE /* Emulator_TechneUITestsLaunchTests.swift in Sources */,
+				AD02D45029BB83D50099E0BE /* Emulator_TechneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD02D47329BBA3910099E0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD02D47A29BBA3910099E0BE /* Emulator_Techne_v2_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD02D44D29BB83D50099E0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD02D43029BB83D40099E0BE /* Emulator_Techne */;
+			targetProxy = AD02D44C29BB83D50099E0BE /* PBXContainerItemProxy */;
+		};
+		AD02D47C29BBA3910099E0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD02D43029BB83D40099E0BE /* Emulator_Techne */;
+			targetProxy = AD02D47B29BBA3910099E0BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD02D45329BB83D50099E0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD02D45429BB83D50099E0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD02D45629BB83D50099E0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emulator_Techne/Preview Content\"";
+				DEVELOPMENT_TEAM = V2NRY96WKP;
+				ENABLE_PREVIEWS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chhamilton00.Emulator-Techne";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD02D45729BB83D50099E0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emulator_Techne/Preview Content\"";
+				DEVELOPMENT_TEAM = V2NRY96WKP;
+				ENABLE_PREVIEWS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chhamilton00.Emulator-Techne";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD02D45C29BB83D50099E0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2NRY96WKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chhamilton00.Emulator-TechneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Emulator_Techne;
+			};
+			name = Debug;
+		};
+		AD02D45D29BB83D50099E0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2NRY96WKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chhamilton00.Emulator-TechneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Emulator_Techne;
+			};
+			name = Release;
+		};
+		AD02D47E29BBA3910099E0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2NRY96WKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chhamilton00.Emulator-Techne-v2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emulator_Techne.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emulator_Techne";
+			};
+			name = Debug;
+		};
+		AD02D47F29BBA3910099E0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2NRY96WKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chhamilton00.Emulator-Techne-v2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emulator_Techne.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emulator_Techne";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD02D42C29BB83D40099E0BE /* Build configuration list for PBXProject "Emulator_Techne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD02D45329BB83D50099E0BE /* Debug */,
+				AD02D45429BB83D50099E0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD02D45529BB83D50099E0BE /* Build configuration list for PBXNativeTarget "Emulator_Techne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD02D45629BB83D50099E0BE /* Debug */,
+				AD02D45729BB83D50099E0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD02D45B29BB83D50099E0BE /* Build configuration list for PBXNativeTarget "Emulator_TechneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD02D45C29BB83D50099E0BE /* Debug */,
+				AD02D45D29BB83D50099E0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD02D47D29BBA3910099E0BE /* Build configuration list for PBXNativeTarget "Emulator_Techne_v2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD02D47E29BBA3910099E0BE /* Debug */,
+				AD02D47F29BBA3910099E0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD02D46229BB84940099E0BE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 9.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD02D46329BB84940099E0BE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD02D46229BB84940099E0BE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AD02D46529BB84940099E0BE /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD02D46229BB84940099E0BE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		ADF29E9E29BBBCFB00FF15A7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD02D46229BB84940099E0BE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD02D42929BB83D40099E0BE /* Project object */;
+}
